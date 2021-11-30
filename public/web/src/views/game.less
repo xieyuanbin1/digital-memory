@@ -1,0 +1,83 @@
+.game {
+  padding: 10px;
+
+  .top-container {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(249, 244, 237);
+
+    .size-box {
+      width: 30%;
+      background-color: rgb(230, 198, 66);
+      border-radius: 8px;
+      line-height: 48px;
+      font-weight: bolder;
+      padding: 10px 0;
+
+      .game-name {
+        font-size: 36px;
+      }
+      .wid-hei {
+        font-size: 28px;
+      }
+    }
+
+    .current-score-box, .highest-score-box {
+      width: 30%;
+    }
+    .current-score-box .score, .highest-score-box .highest {
+      border-radius: 8px;
+      background-color: rgb(184, 173, 161);
+      padding: 10px 0;
+      line-height: 24px;
+    }
+    .current-score-box .re-start, .highest-score-box .change-level {
+      border-radius: 8px;
+      background-color: rgb(240, 162, 99);
+      padding: 10px 0;
+      line-height: 24px;
+    }
+    .re-start, .change-level {
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  }
+}
+
+.menu {
+  margin-top: 10px;
+//   button {
+//     background-color: rgba(76, 176, 249, 0.9);
+//     color: rgba(255, 255, 255, 0.9);
+//     border-color: #4cb0f9;
+//     border-radius: 4px;
+//     padding: 10px 20px;
+//     box-shadow: none;
+//   }
+}
+
+.box-container {
+  margin-top: 50px;
+  background-color: rgb(181, 174, 159);
+  align-content: space-around;
+  height: 360px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 36px;
+  color: #333;
+
+  .box {
+    background-color: rgb(237, 219, 181);
+    // line-height: 50px;
+    // height: 50px;
+    // width: 50px;
+    border-radius: 8px;
+    // margin-top: 20px;
+  }
+}

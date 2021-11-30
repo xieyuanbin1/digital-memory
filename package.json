@@ -1,6 +1,6 @@
 {
-    "name": "com.example.digital-memory",
-    "version": "1.0.5",
+    "name": "com.nic.digital-memory",
+    "version": "1.0.6",
     "description": "Digital Memory Game",
     "repository": "https://github.com/edgeros/tpl-simple.git",
     "main": "main.js",

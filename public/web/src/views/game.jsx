@@ -190,7 +190,7 @@ export default defineComponent({
             </div>
           </div>
         </div>
-        <div class="box-container">
+        <div class="box-container" style={{ height: `${boxWidth.value * Math.sqrt(box.value) + (Math.sqrt(box.value) + 1) * 10}px` }}>
           {
             list.map(item => {
               return (
